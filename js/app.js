@@ -1,7 +1,7 @@
 let amigosAdicionados = [];
 
 function adicionar() {
-    let amigo = document.getElementById('nome-amigo').value;
+    let amigo = document.getElementById('nome-amigo').value.toUpperCase();
     let listaAmigos = document.getElementById('lista-amigos');
 
     if (amigosAdicionados.includes(amigo)) {
